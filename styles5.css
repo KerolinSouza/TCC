@@ -1,0 +1,439 @@
+/* Reset de estilos básico */
+@font-face {
+  font-family: font2;
+  src: url(Poppins-LightItalic.ttf);
+}
+
+* {
+  /* border: solid red; */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0%;
+  padding: 0%;
+  line-height: 1.6;
+  font-family: font2;
+  background-color: #97c0ba;
+}
+
+.header {
+  background-color: #ffffff94;
+  color: #000000;
+  height: 150px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0 19px;
+}
+
+.logo img {
+  width: 220px;
+  /* Tamanho da logo */
+  height: auto;
+  margin-right: 19px;
+}
+
+.nav {
+  margin-left: auto;
+  /* Coloca a navegação no lado direito */
+}
+
+.nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav ul li {
+  display: inline;
+  margin-left: 30px;
+  /* Espaçamento entre os itens do menu */
+}
+
+.nav ul li a {
+  color: #050505;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: font2;
+}
+
+.nav ul li a:hover {
+  text-decoration: underline;
+}
+
+
+h1{
+    color: #302a2a;
+    text-align: center;
+    margin-top: 170px;
+}
+
+
+  
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+  }
+  
+  /* .button {
+    cursor: pointer;
+    text-decoration: none;
+    color: #ffff;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #2d2e32;
+    border: 2px solid #2d2e32;
+    transition: all 0.45s;
+  } */
+  
+  .button:hover {
+    
+    transform-origin: center center;
+    background-color: #bdd1ce;
+    color: #2d2e32;
+  }
+  
+  .button:hover .btn-svg {
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(305deg)
+      brightness(103%) contrast(103%);
+  }
+  
+  .flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  h3{
+    margin-top: 100px;
+    text-align: center;
+    margin-top: -5px;
+  }
+
+ 
+
+
+
+.imagem3{
+ 
+  margin-left: 240px;
+  transition: transform 0.3s, box-shadow 0.3s
+}
+
+.imagem2{
+  margin-left: 1px;
+}
+
+.imagem1{
+  margin-bottom: 100px;
+ 
+}
+
+.imagem4{
+  margin-bottom: 180px;
+}
+
+
+form {
+  max-width: 400px;
+  margin-top: 10%;
+  padding: 1em;
+  /* border: 1px solid #ccc; */
+  border-radius: 1em;
+  /* box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); */
+  margin-right: 9%;
+  font-family: "Poppins", sans-serif;
+}
+.form-group {
+  margin-bottom: 1em;
+}
+label {
+  margin-bottom: .5em;
+  /* color: #333333; */
+  display: block;
+  font-weight: bold;
+}
+input[type="text"], input[type="email"], textarea {
+  border: 1px solid #CCCCCC;
+  padding: .5em;
+  font-size: 15px;
+  width: 100%;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+textarea {
+  height: 100px;
+  /* Permite ajustar tanto horizontalmente quanto verticalmente */
+}
+input[type="submit"] {
+  padding: 0.7em;
+  color: #fff;
+  background-color: #007BFF;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1em;
+  width: 100%;
+  margin-top: 10%;
+}
+input[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+
+
+.parallax {
+  /* A altura é necessária para que a imagem de fundo se mova */
+  height: 400px;
+  /* Ajuste a imagem de fundo */
+  background-image: url(criancas-que-sao-amigas-umas-das-outras_433905-9946.avif);
+  /* Cria o efeito parallax */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.content {
+  height: 500px;
+  background-color: #7d9995c5;
+  text-align: center;
+  padding: 20px;
+}
+
+.horizontal-bar {
+  width: 100%;
+  height: 2.5px; /* Ajuste a altura conforme necessário */
+  background-color: #000000; /* Cor de fundo da barra */
+  display: flex;
+  justify-content: center; /* Centraliza o conteúdo horizontalmente */
+  align-items: center; /* Centraliza o conteúdo verticalmente */
+  color: white; /* Cor do texto */
+  font-size: 1.5em; /* Tamanho do texto */
+}
+
+p{
+  margin-top: 16px;
+  font-family: poppins;
+}
+
+
+
+
+footer {
+  margin-top: 10%;
+  background-color: #ffffff94;
+  display: flex;
+  flex-direction: row;
+}
+
+.sobre-logo {
+  width: 300px;
+  height: 200px;
+
+}
+
+.sobre-logo img {
+  margin-top: 2%;
+  width: 200px;
+  height: 60px;
+}
+
+.sobre-logo p {
+  font-family: font2;
+  font-size: 20px;
+  margin-left: 9%;
+}
+
+.mapa-site {
+  margin-top: 3%;
+  margin-left: 30px;
+}
+
+.mapa-site h2 {
+  width: 200px;
+  font-size: 20px;
+  /* margin-right: 30px; */
+}
+
+.mapa-site ul {
+  margin-left: 20px;
+  list-style-type: none;
+}
+
+.mapa-site li {
+  font-family: "Poppins", sans-serif;
+}
+
+.mapa-site a{
+  text-decoration: none;
+  color: #000000;
+}
+
+.mapa {
+  color: #000000;
+  font-family: font2;
+  margin-top: 2%;
+  margin-left: 30px;
+  font-size: 15px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+}
+
+.mapa iframe {
+  width: 400px;
+  height: 300px;
+}
+
+.mapa p {
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+}
+
+.como-ajudar {
+  margin-left: 30px;
+  width: 290px;
+  font-size: 20px;
+}
+
+.como-ajudar h2 {
+  font-family: font2;
+  font-size: 20px;
+  width: 200px;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.como-ajudar p {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  margin-left: 20px;
+}
+
+.como-ajudar button {
+  text-align: center;
+  font-family: font2;
+  margin-left: 40px;
+  color: black;
+  background-color: rgb(175, 233, 224);
+}
+
+.redes-sociais {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 160px;
+  height: 50px;
+}
+
+.redes-sociais1 {
+  display: flex;
+  flex-direction: column;
+}
+
+.redes-sociais h2 {
+  font-size: 20px;
+  width: 200px;
+}
+
+
+.redes-sociais img {
+  flex-direction: column;
+  height: 70px;
+  width: 60px;
+  margin-left: 30px;
+}
+
+
+
+
+
+@media screen and (max-width: 768px) {
+  .logo img{
+    width: 285px;
+    margin-left: -80px;
+  }
+
+ 
+.nav {
+  margin-left: auto; /* Coloca a navegação no lado direito */
+}
+
+.nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav ul li {
+  display: inline;
+  margin-left: 20px; /* Espaçamento entre os itens do menu */
+  
+}
+
+
+.imagem1{
+  width: 295px;
+  margin-left: 230px;
+  margin-top: -500px;
+}
+
+.imagem3{
+  width: 295px;
+  margin-left: -17px;
+}
+
+.imagem2{
+  width: 325px;
+  margin-top: -500px;
+  margin-left: 190px;
+}
+
+.imagem4{
+  width: 325px;
+  margin-left: -60px;
+}
+
+.parallax{
+  max-width: 100%;
+  width: 530px;
+  height: 390px;
+}
+
+p{
+margin-bottom: -600px;
+}
+
+
+}
+
+
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.img2{
+  margin-left: -800px;
+  margin-bottom: 50px;
+}
+
+
+.form-group{
+   margin-top: -150px;
+
+}
+
+
+
